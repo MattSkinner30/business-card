@@ -30,7 +30,7 @@ body {
 
 h1 {
 	text-align: left;
-	border-left: solid 2px black;
+	border-left: solid 2px orange;
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 3.157rem;
 	margin:0 0px 0.5em 12.5%;
@@ -69,38 +69,45 @@ header nav a {
 }
 
 .nav-1 {
-	border-left: 1px solid black;
+	border-left: 1px solid orange;
 	margin-left: 12.5%;
 	margin-bottom: 0.5em;
 	padding-left: 10px;
 }
 
 .nav-2 {
-	border-left: 1px solid black;
+	border-left: 1px solid orange;
 	margin-left: 12.5%;
 	padding-left: 10px;
 }
 
-p {
+main p {
 	padding: 0 5%;
 }
 
+footer {
+	background-color: #333;
+}
 footer a {
 	width: 100%;
 	display: block;
-	border: 1px solid black;
-    background-color: grey;
-    text-align: center;
+	margin-left: 25%;
     padding:0.5em 0;
+    text-decoration: none;
+    color:#e87400;
+	font-family: 'Fjalla One', sans-serif;
 }
 
 footer img {
-	width: 25%;
-	margin: 0 auto;
+	width: 30%;
+	max-width: 75px;
 
 }
 
-
+footer p {
+	float: right;
+	clear: both;
+}
 
 
 
