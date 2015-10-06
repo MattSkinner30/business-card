@@ -1,7 +1,11 @@
 /*
 font-family: 'Fjalla One', sans-serif;
 font-family: 'Libre Baskerville', serif;
-red colour: #f8381f;
+dark Grey: #292A2E;
+light grey: #38393B;
+light orange: #FF5A00;
+orange: #A33900;
+Dark orange: #692600;
 */
 
 
@@ -31,9 +35,9 @@ body {
 }
 
 header {
-	background-color: #f8381f;
+	background-color: #292A2E;
     padding-bottom: 1em;
-    border-bottom: 3px solid #861322;
+    border-bottom: 3px solid #692600;
 }
 header img {
 	width: 100%;
@@ -48,11 +52,22 @@ h1 {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 2.369rem;
 	text-align: center;
+	color: #FF5A00;
 }
 
 
 main {
 	margin-top: 2em;
+	background-color: #38393B;
+	margin: 0;
+	padding: 1em 0;
+}
+
+main p {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+
 }
 
 header nav ul {
@@ -73,8 +88,7 @@ header nav a {
 	color: black;
 	font-size: 1.414rem;
 	text-align: center;
-	border-left: 1px solid #f8381f;
-	border-right: 1px solid #f8381f;
+	color: #FF5A00;
 }
 
 /* For lines on the sides of the nac
@@ -98,28 +112,10 @@ main p {
 }
 
 footer {
-	background-color: #333;
+	background-color: #292A2E;
 }
 footer a {
-	width: 100%;
-	display: block;
-	margin-left: 25%;
-    padding:0.5em 0;
     text-decoration: none;
-    color:#e87400;
+    color:#292A2E;
 	font-family: 'Fjalla One', sans-serif;
 }
-
-footer img {
-	width: 30%;
-	max-width: 75px;
-
-}
-
-footer p {
-	float: right;
-
-}
-
-
-
