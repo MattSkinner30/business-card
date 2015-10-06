@@ -35,12 +35,14 @@ body {
 }
 
 header {
-	background-color: #292A2E;
+	background-color: #35BCAF;
     padding-bottom: 1em;
-    border-bottom: 3px solid #692600;
 }
 header img {
-	width: 100%;
+	width: 90%;
+	margin: 5% 5% 0 5%;
+	border-radius: 5px;
+	box-shadow: 5px 5px 0px #FF6C6A;
 }
 
 h1 {
@@ -53,7 +55,7 @@ h1 {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 2.369rem;
 	text-align: center;
-	color: #FF5A00;
+	color: #CC3333;
 }
 
 header nav ul {
@@ -74,32 +76,31 @@ header nav a {
 	color: black;
 	font-size: 1.414rem;
 	text-align: center;
-	color: #FF5A00;
+	color: #CC3333;
 }
 
 main {
 	margin-top: 2em;
-	background-color: #38393B;
+	background-color: #B3DFDC;
 	margin: 0;
 	padding: 1em 0;
 }
 
 main h2 {
 	font-family: 'Fjalla One', sans-serif;
-	color: #FF5A00;
+	color: #CC3333;
 	margin:0;
 	padding:0 0 0 5%;
 }
 
 main p {
 	padding: 0 5% 1em 5%;
-	color: white;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 }
 
 footer {
-	background-color: #292A2E;
+	background-color: #35BCAF;
 }
 footer a {
     text-decoration: none;
