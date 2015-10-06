@@ -42,6 +42,7 @@ header {
 header img {
 	width: 100%;
 }
+
 h1 {
 	/*
 	background-image: url("../images/banner.jpg");
@@ -53,21 +54,6 @@ h1 {
 	font-size: 2.369rem;
 	text-align: center;
 	color: #FF5A00;
-}
-
-
-main {
-	margin-top: 2em;
-	background-color: #38393B;
-	margin: 0;
-	padding: 1em 0;
-}
-
-main p {
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-	margin: 0;
-
 }
 
 header nav ul {
@@ -91,7 +77,38 @@ header nav a {
 	color: #FF5A00;
 }
 
-/* For lines on the sides of the nac
+main {
+	margin-top: 2em;
+	background-color: #38393B;
+	margin: 0;
+	padding: 1em 0;
+}
+
+main h2 {
+	font-family: 'Fjalla One', sans-serif;
+	color: #FF5A00;
+	margin:0;
+	padding:0 0 0 5%;
+}
+
+main p {
+	padding: 0 5% 1em 5%;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+footer {
+	background-color: #292A2E;
+}
+footer a {
+    text-decoration: none;
+    color:#292A2E;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+
+/* For lines on the sides of the nav
 .nav-1 {
 	border-left: 1px solid #f8381f;
 	border-right: 1px solid #f8381f;
@@ -107,15 +124,3 @@ header nav a {
 	padding-left: 10px;
 }
 */
-main p {
-	padding: 0 5%;
-}
-
-footer {
-	background-color: #292A2E;
-}
-footer a {
-    text-decoration: none;
-    color:#292A2E;
-	font-family: 'Fjalla One', sans-serif;
-}
