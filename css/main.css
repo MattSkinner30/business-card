@@ -30,6 +30,11 @@ body {
 	margin: 0;
 }
 
+header {
+	background-color: #f8381f;
+    padding-bottom: 1em;
+    border-bottom: 3px solid #861322;
+}
 header img {
 	width: 100%;
 }
@@ -42,7 +47,6 @@ h1 {
 	text-align: left;
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 2.369rem;
-	margin-top: 0;
 	text-align: center;
 }
 
