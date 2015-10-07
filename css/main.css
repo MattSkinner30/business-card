@@ -73,6 +73,7 @@ header nav li {
 .nav-2 {
 	margin-top: 2em;
 }
+
 header nav a {
 	text-decoration: none;
 	list-style-type: none;
@@ -86,11 +87,16 @@ header nav a {
 	padding: 0.25em;
 }
 
+header nav a:hover {
+	box-shadow: 5px 5px 0px #2B998E;
+	padding: 0.35em;
+}
+
 main {
 	margin-top: 2em;
 	background-color: #B3DFDC;
 	margin: 0;
-	padding: 1em 0;
+	padding: 1em 0 0 0;
 }
 
 main h2 {
@@ -106,9 +112,6 @@ main p {
 	margin: 0;
 }
 
-footer {
-	background-color: #35BCAF;
-}
 footer a {
     text-decoration: none;
     color:#292A2E;
@@ -143,3 +146,99 @@ footer img:hover {
 	padding-left: 10px;
 }
 */
+
+
+
+@media only screen and (min-width: 24em) {
+	footer {
+		text-align: center;
+		padding-bottom: 2em;
+	}
+
+	footer img {
+		display: inline-block;
+		width: 20%;
+		margin: 5%;
+	}
+
+	footer img:hover {
+		width: 22.5%;
+		margin: 0 5%;
+	}
+
+}
+
+@media only screen and (min-width: 45em) {
+	.title {
+		float: right;
+		background-color: #35BCAF;
+		width: 40%;
+		margin-right: 2.5%;
+	}
+
+	header img {
+		width: 50%;
+		margin: 5% 0 0 5%;
+		float: left;
+		max-height: 1000px;
+		max-width: 706px;
+	}
+
+	header {
+	padding-bottom: 17em;
+
+	}
+
+	.who-am-i {
+		margin-left: 55%;
+		clear: right;
+	}
+
+	footer {
+		width: 45%;
+		float: right;
+		clear: clear;
+	}
+
+	body {
+		background-color: #B3DFDC;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
