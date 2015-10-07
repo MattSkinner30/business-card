@@ -1,11 +1,12 @@
 /*
 font-family: 'Fjalla One', sans-serif;
 font-family: 'Libre Baskerville', serif;
-dark Grey: #292A2E;
-light grey: #38393B;
-light orange: #FF5A00;
-orange: #A33900;
-Dark orange: #692600;
+dark blue: #35BCAF;
+light blue: #B3DFDC;
+Blue Shadow: #2B998E;
+light red: #EF7E67;
+red: #FF6C6A;
+Dark red: #CC3333;
 */
 
 
@@ -42,7 +43,7 @@ header img {
 	width: 90%;
 	margin: 5% 5% 0 5%;
 	border-radius: 5px;
-	box-shadow: 5px 5px 0px #FF6C6A;
+	box-shadow: 5px 5px 0px #2B998E;
 }
 
 h1 {
@@ -117,10 +118,15 @@ footer a {
 footer img {
 	width: 30%;
 	border-radius: 5px;
-	box-shadow: 5px 5px 0px #FF6C6A;
 	margin: 5% 35% 5% 35%;
 }
 
+footer img:hover {
+	box-shadow: 5px 5px 0px #2B998E;
+	width: 35%;
+	margin: 5% 32.5% 5% 32.5%;
+
+}
 /* For lines on the sides of the nav
 .nav-1 {
 	border-left: 1px solid #f8381f;
