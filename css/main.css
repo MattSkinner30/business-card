@@ -7,6 +7,9 @@ Blue Shadow: #2B998E;
 light red: #EF7E67;
 red: #FF6C6A;
 Dark red: #CC3333;
+
+
+FAVE ICON
 */
 
 
@@ -57,7 +60,7 @@ h1 {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 2.369rem;
 	text-align: center;
-	color: #CC3333;
+	color: white;
 }
 
 header nav ul {
@@ -82,8 +85,8 @@ header nav a {
 	color: black;
 	font-size: 1.414rem;
 	text-align: center;
-	color: #CC3333;
-	border: 2px solid #CC3333;
+	color: white;
+	border: 2px solid white;
 	border-radius: 3px;
 	padding: 0.25em;
 }
@@ -91,6 +94,8 @@ header nav a {
 header nav a:hover {
 	box-shadow: 5px 5px 0px #2B998E;
 	padding: 0.35em;
+	border: 3px solid #CC3333;
+	color: #CC3333;
 }
 
 main {
@@ -120,6 +125,19 @@ footer a {
 }
 
 footer img {
+		display: inline-block;
+		border-radius: 5px;
+		width: 20%;
+		margin: 5%;
+	}
+
+	footer img:hover {
+		width: 22.5%;
+		margin: 0 5%;
+}
+
+/*
+footer img {
 	width: 30%;
 	border-radius: 5px;
 	margin: 5% 35% 5% 35%;
@@ -131,6 +149,9 @@ footer img:hover {
 	margin: 5% 32.5% 5% 32.5%;
 
 }
+
+*/
+
 /* For lines on the sides of the nav
 .nav-1 {
 	border-left: 1px solid #f8381f;
@@ -154,7 +175,6 @@ footer img:hover {
 	footer {
 		text-align: center;
 		padding-bottom: 2em;
-		background-color: #B3DFDC;
 	}
 
 	footer img {
@@ -204,7 +224,7 @@ footer img:hover {
 	footer {
 		width: 45%;
 		float: right;
-		clear: clear;
+		clear: none;
 	}
 
 	body {
@@ -212,6 +232,25 @@ footer img:hover {
 	}
 
 
+}
+
+@media only screen and (min-width: 73em) {
+	body {
+		max-width: 1500px;
+		font-size: 120%;
+		line-height: 1.5;
+	}
+
+
+	h1 {
+		margin-top: 2em;
+		font-size: 200%;
+	}
+
+	footer {
+		float: right;
+		clear: none;
+	}
 }
 
 
