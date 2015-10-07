@@ -169,6 +169,11 @@ footer img:hover {
 }
 
 @media only screen and (min-width: 45em) {
+	html {
+		font-size: 110%;
+		line-height: 1.4;
+	}
+
 	.title {
 		float: right;
 		background-color: #35BCAF;
