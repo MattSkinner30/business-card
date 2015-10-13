@@ -34,18 +34,21 @@ h2 {
 }
 
 
-a {
+.goback {
 	color: #CC3333;
 	text-decoration: none;
 	border: 2px solid #CC3333;
 	text-align: center;
 	font-family: 'Fjalla One', sans-serif;
 	padding: 1em;
-	width: 30%;
-	margin-left: 35%;
+	width: 50px;
+	margin: 0 auto;
+	display: block;
 
 }
 
-a:hover {
-	box-shadow: 10px 10px 10px dark-red;
+.goback:hover {
+	box-shadow: 5px 5px 0px #2B998E;
+	border: 3px solid #CC3333;
+	color: #CC3333;
 }

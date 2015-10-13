@@ -86,7 +86,7 @@ header nav a {
 }
 
 header nav a:hover {
-	box-shadow: 5px 5px 0px #0e0e0e;
+	box-shadow: 5px 5px 0px #2B998E;
 	padding: 0.35em;
 	border: 3px solid #CC3333;
 	color: #CC3333;
@@ -241,7 +241,28 @@ footer img:hover {
 }
 
 
+@media print {
+		img {
+			float: right;
+			width: 40%;
+		}
 
+		a {
+			display: none;
+		}
+
+		h1 {
+			text-align: left;
+			float: left;
+		}
+
+		main {
+			width: 50%;
+			float: left;
+			clear: left;
+		}
+
+}
 
 
 
