@@ -112,6 +112,9 @@ main p {
 	margin: 0;
 }
 
+footer {
+	text-align: center;
+}
 footer a {
     text-decoration: none;
     color:#292A2E;
@@ -123,6 +126,7 @@ footer img {
 		border-radius: 5px;
 		width: 20%;
 		margin: 5%;
+		min-width: 50px;
 	}
 
 footer img:hover {
@@ -130,6 +134,12 @@ footer img:hover {
 		box-shadow: 5px 5px 0px #252525;
 
 	}
+
+
+
+
+
+
 
 @media only screen and (min-width: 24em) {
 	footer {
@@ -144,6 +154,13 @@ footer img:hover {
 	}
 
 }
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 45em) {
 	html {
@@ -183,6 +200,14 @@ footer img:hover {
 	}
 
 }
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 73em) {
 	body {
