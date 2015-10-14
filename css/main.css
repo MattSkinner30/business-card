@@ -1,18 +1,3 @@
-/*
-font-family: 'Fjalla One', sans-serif;
-font-family: 'Libre Baskerville', serif;
-dark blue: #35BCAF;
-light blue: #B3DFDC;
-Blue Shadow: #2B998E;
-light red: #EF7E67;
-red: #FF6C6A;
-Dark red: #CC3333;
-
-
-FAVE ICON
-*/
-
-
 @-moz-viewport {width: device-width; scale: 1;}
 @-ms-viewport {width: device-width; scale: 1;}
 @-o-viewport {width: device-width; scale: 1;}
@@ -190,13 +175,6 @@ footer a:hover {
 
 }
 
-
-
-
-
-
-
-
 @media only screen and (min-width: 35em) {
 	html {
 		font-size: 110%;
@@ -238,7 +216,6 @@ footer a:hover {
 }
 
 
-
 @media only screen and (min-width: 63.438em) {
 		footer {
 			width: 45%;
@@ -247,11 +224,6 @@ footer a:hover {
 
 
 }
-
-
-
-
-
 
 @media only screen and (min-width: 73em) {
 	body {
@@ -329,36 +301,3 @@ footer a:hover {
 
 		
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
