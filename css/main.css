@@ -230,14 +230,23 @@ footer a:hover {
 		width: 50%;
 	}
 
-	footer {
-		width: 45%;
+	footer img {
+		max-width: 50px;
+
 	}
 
 }
 
 
 
+@media only screen and (min-width: 63.438em) {
+		footer {
+			width: 45%;
+		}
+
+
+
+}
 
 
 
