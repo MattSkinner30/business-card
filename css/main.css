@@ -111,9 +111,19 @@ main p {
 	margin: 0;
 }
 
+.email {
+	text-decoration: none;
+	color:#CC3333;
+}
+
+.email:hover {
+	text-decoration: underline;
+}
+
 footer {
 	text-align: center;
 }
+
 footer a {
     text-decoration: none;
     color:#292A2E;
@@ -130,14 +140,40 @@ footer img {
 
 footer img:hover {
 		transform: translate(0, -5px);
-		box-shadow: 5px 5px 0px #2B998E;
+		box-shadow: 5px 5px 0px #aaa;
 
 	}
 
 
 
+.contact {
+			text-align: left;
+			text-decoration: none;
+			font-family: 'Fjalla One', sans-serif;
+			color: #CC3333;
+			text-align: center;
+			line-height: 1.5;
+}
+
+.contact a {
+			color:#CC3333;
 
 
+}
+
+address {
+			font-style: normal;
+			color: #CC3333;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+.bgcolour {
+		background-color: #B3DFDC;
+
+}
 
 
 @media only screen and (min-width: 24em) {
@@ -242,26 +278,48 @@ footer img:hover {
 
 
 @media print {
-		img {
-			float: right;
-			width: 40%;
+		body {
+			width: 336px;
+			height: 192px;
+			border: 2px dashed #CC3333;
 		}
 
-		a {
+		img {
+			display: none;
+		}
+
+		main a {
+			d
+			isplay: none;
+		}
+		header a {
 			display: none;
 		}
 
 		h1 {
 			text-align: left;
 			float: left;
+			padding-left: 5%;
+			margin-top: 0;
+			border-bottom: 1px solid #CC3333;
+			width: 336px;
 		}
 
-		main {
-			width: 50%;
-			float: left;
-			clear: left;
+		h2, p {
+			display: none;
 		}
 
+		footer img {
+			display: none;
+		}
+
+		.contact {
+			text-align: left;
+			padding-left: 5%;
+		}
+	
+
+		
 }
 
 
